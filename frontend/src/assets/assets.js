@@ -103,25 +103,25 @@ export const dummyEducatorData = {
 
 export const dummyTestimonial = [
     {
-        name: 'Donald Jackman',
+        name: 'Jethalal',
         role: 'SWE 1 @ Amazon',
         image: assets.profile_img_1,
         rating: 5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'Because of this course I was able to clear my two interviews... Thanks for making such wonderful content.',
     },
     {
-        name: 'Richard Nelson',
+        name: 'Marco',
         role: 'SWE 2 @ Samsung',
         image: assets.profile_img_2,
         rating: 4,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'This has helped me so much in my career...I joined as a frontend engineer and eventually transitioned to full stack engineer with the help of this course.',
     },
     {
-        name: 'James Washington',
+        name: 'Washington Sundar',
         role: 'SWE 2 @ Google',
         image: assets.profile_img_3,
         rating: 4.5,
-        feedback: 'I\'ve been using Imagify for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.',
+        feedback: 'Today, I am a software developer, and I credit a significant part of my success to the solid foundation laid by this course.',
     },
 ];
 
