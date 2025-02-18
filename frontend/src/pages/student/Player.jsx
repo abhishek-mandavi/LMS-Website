@@ -3,7 +3,7 @@ import React from 'react'
 const Player = () => {
   return (
     <div>
-      Player
+      Player 222
     </div>
   )
 }
