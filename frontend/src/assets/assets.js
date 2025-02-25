@@ -96,8 +96,8 @@ export const dummyEducatorData = {
     "name": "Edemy",
     "email": "user.greatstack@gmail.com",
     "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18yclFkaDBOMmFqWnBoTTRBOXZUanZxVlo0aXYifQ",
-    "createdAt": "2024-12-12T10:56:17.930Z",
-    "updatedAt": "2024-12-12T10:56:17.930Z",
+    "createdAt": "2025-12-12T10:56:17.930Z",
+    "updatedAt": "2025-12-12T10:56:17.930Z",
     "__v": 0
 }
 
@@ -180,7 +180,7 @@ export const dummyStudentEnrolled = [
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
         "courseTitle": "Introduction to JavaScript",
-        "purchaseDate": "2024-12-20T08:39:55.509Z"
+        "purchaseDate": "2025-01-20T08:39:55.509Z"
     },
     {
         "student": {
@@ -189,7 +189,7 @@ export const dummyStudentEnrolled = [
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
         "courseTitle": "Introduction to JavaScript",
-        "purchaseDate": "2024-12-20T08:59:49.964Z"
+        "purchaseDate": "2025-01-02T08:59:49.964Z"
     },
     {
         "student": {
@@ -198,7 +198,7 @@ export const dummyStudentEnrolled = [
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
         "courseTitle": "Advanced Python Programming",
-        "purchaseDate": "2024-12-20T11:03:42.931Z"
+        "purchaseDate": "2025-02-20T11:03:42.931Z"
     },
     {
         "student": {
@@ -207,7 +207,7 @@ export const dummyStudentEnrolled = [
             "imageUrl": "https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ29vZ2xlL2ltZ18ycVFsdmFMSkw3ckIxNHZMU2o4ZURWNEtmR2IifQ"
         },
         "courseTitle": "Web Development Bootcamp",
-        "purchaseDate": "2024-12-20T11:04:48.798Z"
+        "purchaseDate": "2025-02-20T11:04:48.798Z"
     }
 ]
 
@@ -280,7 +280,7 @@ export const dummyCourses = [
                 "_id": "6773e37360cb0ab974342314"
             }
         ],
-        "createdAt": "2024-12-17T08:16:53.622Z",
+        "createdAt": "2025-02-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T04:47:44.701Z",
         "__v": 4,
         "courseThumbnail": "https://img.youtube.com/vi/CBWnBi-awSA/maxresdefault.jpg"
@@ -352,7 +352,7 @@ export const dummyCourses = [
                 "_id": "6776369244daad0f313d81a9"
             }
         ],
-        "createdAt": "2024-12-17T08:16:53.622Z",
+        "createdAt": "2025-02-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:47:54.446Z",
         "__v": 3,
         "courseThumbnail": "https://img.youtube.com/vi/HdLIMoQkXFA/maxresdefault.jpg"
@@ -418,8 +418,8 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-27T11:30:00.000Z",
-        "updatedAt": "2024-12-31T04:14:49.773Z",
+        "createdAt": "2025-01-27T11:30:00.000Z",
+        "updatedAt": "2025-02-31T04:14:49.773Z",
         "__v": 2,
         "courseThumbnail": "https://img.youtube.com/vi/jZFaMEqEqEQ/maxresdefault.jpg"
     },
@@ -484,8 +484,8 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2024-12-31T05:31:27.290Z",
+        "createdAt": "2025-01-17T08:16:53.622Z",
+        "updatedAt": "2025-02-31T05:31:27.290Z",
         "__v": 2,
         "courseThumbnail": "https://img.youtube.com/vi/lpx2zFkapIk/maxresdefault.jpg"
     },
@@ -549,8 +549,8 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
-        "updatedAt": "2024-12-31T05:32:55.357Z",
+        "createdAt": "2025-01-17T08:16:53.622Z",
+        "updatedAt": "2025-02-31T05:32:55.357Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/0yboGn8errU/maxresdefault.jpg"
     },
@@ -622,8 +622,8 @@ export const dummyCourses = [
                 "_id": "6773acf160cb0ab974342248"
             }
         ],
-        "createdAt": "2024-12-27T10:00:00.000Z",
-        "updatedAt": "2024-12-31T09:57:48.992Z",
+        "createdAt": "2025-01-27T10:00:00.000Z",
+        "updatedAt": "2025-01-31T09:57:48.992Z",
         "__v": 3,
         "courseThumbnail": "https://img.youtube.com/vi/E4znbZgUWzA/maxresdefault.jpg"
     },
@@ -687,7 +687,7 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
+        "createdAt": "2025-02-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:53:59.753Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/631lFJdQvoo/maxresdefault.jpg"
@@ -752,7 +752,7 @@ export const dummyCourses = [
             "user_2qjlgkAqIMpiR2flWIRzvWKtE0w"
         ],
         "courseRatings": [],
-        "createdAt": "2024-12-17T08:16:53.622Z",
+        "createdAt": "2025-02-17T08:16:53.622Z",
         "updatedAt": "2025-01-02T06:56:13.208Z",
         "__v": 1,
         "courseThumbnail": "https://img.youtube.com/vi/WbV3zRgpw_E/maxresdefault.jpg"

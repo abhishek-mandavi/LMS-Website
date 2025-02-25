@@ -39,9 +39,9 @@ const CourseDetails = () => {
         ...prev,[index] : !prev[index],
 
       }
-    ))
+    ));
 
-  }
+  };
 
   return courseData ? (
     <>
