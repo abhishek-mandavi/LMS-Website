@@ -1,4 +1,8 @@
 import { clerkClient } from '@clerk/express'
+import Course from '../models/Course.js'
+import { json } from 'express'
+import {v2 as cloudinary} from 'cloudinary'
+import { Purchase } from '../models/Purchase.js'
 
 //update educator
 export const updateRoleEducator = async (req, res) => {
@@ -16,4 +20,65 @@ export const updateRoleEducator = async (req, res) => {
     } catch (error) {
         res.json({success: false , message: error.message})
     }
+}
+
+//Add new course
+
+export const addCourse = async (req,res) => {
+    try {
+        const { courseData } = req.body
+        const imageFile = req.file
+        const educatorId = req.auth.userId
+
+        if(!imageFile){
+            return res.json({success: false, message: 'Thumbnail Not Attached'})
+        }
+
+        const parsedCourseData = await JSON.parse(courseData)
+        parsedCourseData.educator = educatorId
+       const newCourse =  await Course.create(parsedCourseData)
+       const imageUpload =  await cloudinary.uploader.upload(imageFile.path)
+      newCourse.courseThumbnail = imageUpload.secure_url
+      await newCourse.save()
+
+      res.json({success: true, message: 'Course Added'})
+
+    } catch (error) {
+        res.json({success: false, message:error.message})
+    }
+}
+
+//educator course
+export const getEducatorCourses = async(req,res) => {
+    try {
+       const educator = req.auth.userId
+
+       const courses = await Course.find({educator})
+       res.json({ success: true, courses })
+    } catch (error) {
+        res.json({ success: false, message: error.message})
+    }
+}
+
+//educator dashboar data
+
+export const educatorDashboardData = async () => {
+   try {
+    const educator = req.auth.userId;
+    const courses = await Course.find({educator});
+    const totalCourses = courses.length;
+
+    const courseIds = courses.map(course => course._id);
+
+    //total earniong claculate
+    const purchases = await Purchase.find({
+        courseId: {$in: courseIds},
+        status: 'completed'
+    });
+
+    const totalEarnings = purchases.reduce((sum,purchase) => sum + purchase.amount, 0);
+
+   } catch (error) {
+    
+   }
 }
