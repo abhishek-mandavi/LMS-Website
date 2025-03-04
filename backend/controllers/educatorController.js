@@ -1,10 +1,13 @@
-import { clerkClient, User } from '@clerk/express'
+import { clerkClient} from '@clerk/express'
 import Course from '../models/Course.js'
 import { json } from 'express'
 import {v2 as cloudinary} from 'cloudinary'
 import { Purchase } from '../models/Purchase.js'
 
 //update educator
+// const User = await clerkClient.users.getUser(userId);
+// console.log(User);
+
 export const updateRoleEducator = async (req, res) => {
     try {
         const userId = req.auth.userId
