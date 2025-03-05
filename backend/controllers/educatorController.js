@@ -3,6 +3,7 @@ import Course from '../models/Course.js'
 import { json } from 'express'
 import {v2 as cloudinary} from 'cloudinary'
 import { Purchase } from '../models/Purchase.js'
+import User from '../models/user.js'
 
 //update educator
 // const User = await clerkClient.users.getUser(userId);
