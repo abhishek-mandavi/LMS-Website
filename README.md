@@ -27,6 +27,11 @@ This is a Full Stack Learning Management System (LMS) built using the MERN stack
 
 - Responsive UI built with React and Tailwind CSS
 # 🛠️ Tech Stack
+### Frontend:
+- React.js
+- Tailwind CSS
+- React Router
+- Clerk Authentication
 # 🔧 Installation & Setup
 #  Run the Application
 # 🚀 Deployment
