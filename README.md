@@ -43,7 +43,9 @@ This is a Full Stack Learning Management System (LMS) built using the MERN stack
 - Webhooks for payment confirmation
 # 🔧 Installation & Setup
 ### Setup Environment Variables:
-- Create a .env file in the backend directory and add:
+-Create a .env file in the backend directory and add:
+
+
 MONGODB_URI = ''
 
 CLERK_WEBHOOK_SECRET = ''
@@ -58,7 +60,10 @@ STRIPE_PUBLISHABLE_KEY = ''
 STRIPE_SECRET_KEY = ''
 STRIPE_WEBHOOK_SECRET = ''
 
-- Create a .env file in the frontend directory and add:
+-Create a .env file in the frontend directory and add:
+
+
+
 VITE_CLERK_PUBLISHABLE_KEY=''
 VITE_CURRENCY = '₹'
 
