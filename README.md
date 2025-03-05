@@ -49,15 +49,23 @@ This is a Full Stack Learning Management System (LMS) built using the MERN stack
 MONGODB_URI = ''
 
 CLERK_WEBHOOK_SECRET = ''
+
 CLERK_PUBLISHABLE_KEY=
+
 CLERK_SECRET_KEY=
 
 CLOUDINARY_NAME = ""
+
 CLOUDINARY_API_KEY = ""
+
 CLOUDINARY_SECRET_KEY = ""
 
 STRIPE_PUBLISHABLE_KEY = ''
+
+
 STRIPE_SECRET_KEY = ''
+
+
 STRIPE_WEBHOOK_SECRET = ''
 
 - Create a .env file in the frontend directory and add:
