@@ -32,7 +32,36 @@ This is a Full Stack Learning Management System (LMS) built using the MERN stack
 - Tailwind CSS
 - React Router
 - Clerk Authentication
+### Backend:
+- Node.js
+- Express.js
+- MongoDB (Mongoose ORM)
+- Stripe API
+### Other Tools:
+- JWT for secure user authentication
+- Cloudinary for media storage
+- Webhooks for payment confirmation
 # 🔧 Installation & Setup
+### Setup Environment Variables:
+- Create a .env file in the backend directory and add:
+MONGODB_URI = ''
+
+CLERK_WEBHOOK_SECRET = ''
+CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+
+CLOUDINARY_NAME = ""
+CLOUDINARY_API_KEY = ""
+CLOUDINARY_SECRET_KEY = ""
+
+STRIPE_PUBLISHABLE_KEY = ''
+STRIPE_SECRET_KEY = ''
+STRIPE_WEBHOOK_SECRET = ''
+
+- Create a .env file in the frontend directory and add:
+VITE_CLERK_PUBLISHABLE_KEY=''
+VITE_CURRENCY = '₹'
+
 #  Run the Application
 # 🚀 Deployment
 # 📬 Contact
