@@ -43,7 +43,7 @@ This is a Full Stack Learning Management System (LMS) built using the MERN stack
 - Webhooks for payment confirmation
 # 🔧 Installation & Setup
 ### Setup Environment Variables:
--Create a .env file in the backend directory and add:
+- Create a .env file in the backend directory and add:
 
 
 MONGODB_URI = ''
@@ -60,7 +60,7 @@ STRIPE_PUBLISHABLE_KEY = ''
 STRIPE_SECRET_KEY = ''
 STRIPE_WEBHOOK_SECRET = ''
 
--Create a .env file in the frontend directory and add:
+- Create a .env file in the frontend directory and add:
 
 
 
@@ -70,7 +70,27 @@ VITE_CLERK_PUBLISHABLE_KEY=''
 VITE_CURRENCY = '₹'
 
 #  Run the Application
+- Start Backend Server:-
+
+cd backend
+
+npm run dev
+
+- Start Frontend :-
+
+cd frontend
+
+npm run dev
 # 🚀 Deployment
+
+- Frontend: Vercel
+
+- Backend: AWS
+
+- DataBase:  MongoDB Atlas
+
+# 🤝 Contributing
+Feel free to fork this repository and make pull requests. Contributions are welcome!
 # 📬 Contact
 For any inquiries, reach out via [abhishekmandavi912@gmail.com] or create an issue in this repository.
 
