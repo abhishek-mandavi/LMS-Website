@@ -65,6 +65,8 @@ STRIPE_WEBHOOK_SECRET = ''
 
 
 VITE_CLERK_PUBLISHABLE_KEY=''
+
+
 VITE_CURRENCY = '₹'
 
 #  Run the Application
